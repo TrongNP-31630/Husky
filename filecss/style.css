@@ -1,13 +1,37 @@
 body {
-  background: #222;
-  color: #eee;
+  margin: 0;
+  transition: background 0.3s, color 0.3s;
+  /* khong cho keo trang ngang ( t eo phai chat GPT ) */
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(55, 54, 54);
+  color: #fff;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navlink {
+  list-style: none;
+  display: flex;
+  font-size: 16px;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
 }
 
 .navlink a {
   text-decoration: none;
-  color: aqua;
+  color: white;
   font-weight: 500;
-  padding: 30px;
 }
 
 ul li {
