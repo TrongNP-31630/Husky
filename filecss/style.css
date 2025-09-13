@@ -34,11 +34,13 @@ body {
   font-weight: 500;
 }
 
-img {
-  max-width: 600px;
-  width: 100%;
+.chocaobangbopc {
+  display: flex;
+  gap: 10px;
+}
+.chocaobangbopc img {
+  width: 400px;
   height: auto;
-  padding-left: 10px;
 }
 
 ul li {
