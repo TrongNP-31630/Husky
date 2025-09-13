@@ -4,9 +4,9 @@ body {
   /* khong cho keo trang ngang ( t eo phai chat GPT ) */
   overflow-x: hidden;
 }
-
+/* Cai thanh tren cung cua web */
 .navbar {
-  display: flex;
+  display: flex; /*  Co dinh cai thanh luon nam o do  */
   justify-content: space-between;
   align-items: center;
   background: rgb(55, 54, 54);
@@ -22,7 +22,7 @@ body {
 .navlink {
   list-style: none;
   display: flex;
-  font-size: 16px;
+  font-size: 20px;
   gap: 15px;
   margin: 0;
   padding: 0;
@@ -32,6 +32,13 @@ body {
   text-decoration: none;
   color: white;
   font-weight: 500;
+}
+
+img {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  padding-left: 10px;
 }
 
 ul li {
